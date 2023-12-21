@@ -16,3 +16,10 @@ MemoInk is an android app created by me and is protected by copyright law. The a
 
 If you'd like to preview the appearance of MemoInk before downloading the apk folder, you can explore the screenshots provided below. Each screenshot showcases the various functions and features of the app. Keep in mind that future updates may introduce additional functionalities to enhance user experience.
 
+| Login Screen                 | Home Screen                  | Topic Screen                 |
+|------------------------------|------------------------------|------------------------------|
+| <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_dashboard.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_converter.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_history.png" width="300px"> |
+
+| Entry Screen                 | Profile Screen               | Settings Screen              |
+|------------------------------|------------------------------|------------------------------|
+| <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_premium.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_redeem.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_settings.png" width="300px"> |
