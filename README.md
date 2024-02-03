@@ -1,3 +1,16 @@
+![Platforms](https://img.shields.io/badge/platforms-Android-lightgrey)
+![Last Commit](https://img.shields.io/github/last-commit/BerndHagen/MemoInk-Mobile-App)
+![License](https://img.shields.io/badge/license-MemoInk%20EULA-important)
+![File size](https://img.shields.io/badge/file%20size-123%20MB-green)
+![Version](https://img.shields.io/github/v/tag/BerndHagen/MemoInk-Mobile-App)
+![Issues](https://img.shields.io/github/issues/BerndHagen/MemoInk-Mobile-App)
+[![GitHub stars](https://img.shields.io/github/stars/BerndHagen/MemoInk-Mobile-App?style=flat&label=Stars&color=yellow)](https://github.com/BerndHagen/MemoInk-Mobile-App/stargazers)
+![Contributors](https://img.shields.io/github/contributors/BerndHagen/MemoInk-Mobile-App)
+![Top Language](https://img.shields.io/github/languages/top/BerndHagen/MemoInk-Mobile-App)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/BerndHagen/MemoInk-Mobile-App)
+![Repo size](https://img.shields.io/github/repo-size/BerndHagen/MemoInk-Mobile-App)
+[![GitHub watchers](https://img.shields.io/github/watchers/BerndHagen/MemoInk-Mobile-App?style=flat&label=Watchers&color=yellow)](https://github.com/BerndHagen/MemoInk-Mobile-App/watchers)
+
 # MemoInk - Write Your Journey
 
 MemoInk is a user-friendly mobile application designed for Android devices, meticulously crafted using Visual Studio 2022 and leveraging the power of Xamarin Forms. Developed as part of a university project, the app is programmed in C# and seamlessly integrates with a Realtime Database from Firebase. This dynamic connection facilitates smooth communication between the app and the database, enabling users to effortlessly receive and update information in real-time.
@@ -18,8 +31,8 @@ If you'd like to preview the appearance of MemoInk before downloading the apk fo
 
 | Login Screen                 | Home Screen                  | Topic Screen                 |
 |------------------------------|------------------------------|------------------------------|
-| <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_dashboard.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_converter.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_history.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_login.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_topics.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_add.png" width="300px"> |
 
 | Entry Screen                 | Profile Screen               | Settings Screen              |
 |------------------------------|------------------------------|------------------------------|
-| <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_premium.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_redeem.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/Screenshots/v1.4.1-medio_settings.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_entry.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_profile.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_settings.png" width="300px"> |
