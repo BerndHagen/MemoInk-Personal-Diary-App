@@ -1,6 +1,6 @@
-# MemoInk - Write Your Journey
+# MemoInk - Personal Diary App
 
-MemoInk is a user-friendly mobile application designed for Android devices, meticulously crafted using Visual Studio 2022 and leveraging the power of Xamarin Forms. Developed as part of a university project, the app is programmed in C# and seamlessly integrates with a Realtime Database from Firebase. This dynamic connection facilitates smooth communication between the app and the database, enabling users to effortlessly receive and update information in real-time.
+MemoInk is a mobile application designed for Android devices, meticulously crafted using Visual Studio 2022 and leveraging the power of Xamarin Forms. Developed as part of a university project, the app is programmed in C# and seamlessly integrates with a Realtime Database from Firebase. This dynamic connection facilitates smooth communication between the app and the database, enabling users to effortlessly receive and update information in real-time.
 
 Functioning as a versatile Diary App, MemoInk empowers users to curate their life experiences through the creation of personalized Topics. Within each Topic, users can compose unlimited Entries, enriching their memories with images or text. What sets MemoInk apart is its collaborative feature, allowing users to designate permissions for others to access, edit and contribute new Entries to a shared Topic. This collaborative approach transforms the app into a virtual canvas for friends and family to collectively build and cherish meaningful memories.
 
