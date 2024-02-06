@@ -6,7 +6,7 @@ Functioning as a versatile Diary App, MemoInk empowers users to curate their lif
 
 MemoInk's thoughtful design extends to privacy preferences, offering users the flexibility to choose between private or public profiles. This choice enables individuals to decide whether to share their cherished memories with a group or with the entire world, fostering a personalized and secure space for capturing and sharing life's beautiful moments.
 
-## Installation Guide
+# Installation Guide
 
 To install the app on your Android device, follow these steps:
 
@@ -28,6 +28,62 @@ To install the app on your Android device, follow these steps:
 
 > **Note:** Ensure you have a minimum of 200MB of free space and a stable internet connection for uninterrupted service use.
 
+# Complete Functionality Guide
+
+### Home Screen
+
+- **Global Topics**: The home screen displays the 20 latest Topics under the 'Global Topics' section. These are topics available to the entire user base. However, access to each topic is permission-based. If you don't have the necessary permissions to view a topic, attempting to open it will result in a message indicating you cannot access it.
+
+- **Shared Topics**: Below the 'Global Topics', you'll find the 'Shared Topics' section. These topics are ones that other users have shared with you by granting specific permissions. This allows for collaborative discussions and content sharing within a controlled environment.
+
+### Creating a New Topic
+
+1. To create a new topic, tap on the **plus symbol (+)** on the bottom navigation bar.
+2. Enter your topic details, including the title and date.
+3. In the 'User Permissions' section, select which users you wish to grant access to by checking the box next to their name. Use the **SELECT ALL USERS** button to grant access to all users quickly.
+4. Save the topic by tapping the **SAVE** button, or cancel the process by tapping **CANCEL**.
+
+### Adding Entries to a Topic
+
+- When viewing a topic, such as the 'Gaming Topic', you can add new entries by tapping on **ADD ENTRY +**. Here, you can write content, share images, and document experiences related to the topic.
+
+### Profile and Settings
+
+- The 'Profile' screen allows you to view your personal information, including your username, country, and contact options like email and website.
+- Users can visit each other's profiles to learn more about them and view the topics they have published.
+- The 'Settings' screen provides a summary of your personal information and offers access to modify your account details and contact preferences.
+
+### Searching for Users
+
+- The app includes a feature to search for other users. This functionality lets you view the profiles of fellow users, see their published topics, and potentially engage with their content, depending on permissions.
+
+### Permissions and Accessibility
+
+- Permissions play a crucial role in the app. They determine what content you can view and interact with. If you try to access a topic without the required permissions, the app will notify you that access is not allowed.
+
+### Additional Notes
+
+- The app is designed with user collaboration and privacy in mind, creating a space where personal and shared experiences can be documented and discussed within a community setting or in private.
+
+Please ensure you're familiar with the app's functionality to get the most out of your experience. If you have any questions or require assistance, refer to this guide or contact support.
+
+# How to Create a New Topic
+
+Creating a new topic in the app is a simple process. Just follow the steps below:
+
+1. Tap on the **plus symbol (+)** located in the bottom navigation bar to start creating a new topic.
+
+2. Once the 'New Topic' page opens, you will see the 'Topic Details' section at the top. Here, enter the title of your new topic in the provided text field.
+
+3. Select the date for your topic by tapping on the date field. A calendar may pop up where you can choose the desired date.
+
+4. Scroll down to the 'User Permissions' section to set who can view or participate in this topic. You can select individual users by checking the box next to their name. If you want to allow all users to access the topic, tap the **SELECT ALL USERS** button.
+
+5. After setting up your permissions, review all information you've entered.
+
+6. To finalize the creation of your topic, tap the **SAVE** button located at the bottom of the screen. If you wish to discard the topic, tap **CANCEL**.
+
+Remember, you can always edit the topic details and permissions later if you need to make changes.
 
 
 # Copyright
