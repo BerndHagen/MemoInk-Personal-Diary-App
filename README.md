@@ -6,6 +6,30 @@ Functioning as a versatile Diary App, MemoInk empowers users to curate their lif
 
 MemoInk's thoughtful design extends to privacy preferences, offering users the flexibility to choose between private or public profiles. This choice enables individuals to decide whether to share their cherished memories with a group or with the entire world, fostering a personalized and secure space for capturing and sharing life's beautiful moments.
 
+## Installation Guide
+
+To install the app on your Android device, follow these steps:
+
+1. **Download the APK**
+   - Navigate to the [Releases](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/releases) page of this repository.
+   - Download the latest `.apk` file to your device.
+
+2. **Allow Installation from Unknown Sources**
+   - On your Android device, go to **Settings** > **Security**.
+   - Enable the option to allow installations from unknown sources.
+
+3. **Install the APK**
+   - Open the downloaded `.apk` file on your device.
+   - Tap **Install** to begin the installation process.
+
+4. **Open and Enjoy**
+   - Once installed, open the app from your device's app drawer.
+   - Register for a new account to start using MemoInk and keep your memories securely stored.
+
+> **Note:** Ensure you have a minimum of 200MB of free space and a stable internet connection for uninterrupted service use.
+
+
+
 # Copyright
 
 This software program, **MemoInk**, is an intellectual creation of me, Bernd Hagen, the author and copyright holder, and is protected by copyright law. This comprehensive copyright notice outlines the terms and conditions governing the use, distribution, and modification of MemoInk:
