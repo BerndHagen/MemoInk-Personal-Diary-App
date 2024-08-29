@@ -68,46 +68,44 @@ To install the app on your Android device, follow these steps:
 
 > **Note:** If the installation failed, check that you have enough free space on your device and the right permissions
 
-## **Complete Functionality Guide**
+## **Functionality Overview**
 
 ### Home Screen
 
-- **Global Topics**: The home screen displays the 20 latest Topics under the 'Global Topics' section. These are topics available to the entire user base. However, access to each topic is permission-based. If you don't have the necessary permissions to view a topic, attempting to open it will result in a message indicating you cannot access it.
+- **Global Topics**  
+  The home screen features the 20 most recent topics in the **'Global Topics'** section. These topics are accessible to the entire user base, though access is permission-based. If you lack the necessary permissions, you will receive a notification indicating that access is restricted.
 
-- **Shared Topics**: Below the 'Global Topics', you'll find the 'Shared Topics' section. These topics are ones that other users have shared with you by granting specific permissions. This allows for collaborative discussions and content sharing within a controlled environment.
-
-### Creating a New Topic
-
-1. To create a new topic, tap on the **plus symbol (+)** on the bottom navigation bar.
-2. Enter your topic details, including the title and date.
-3. In the 'User Permissions' section, select which users you wish to grant access to by checking the box next to their name. Use the **SELECT ALL USERS** button to grant access to all users quickly.
-4. Save the topic by tapping the **SAVE** button, or cancel the process by tapping **CANCEL**.
+- **Shared Topics**  
+  Below **'Global Topics'**, you will find the **'Shared Topics'** section. These topics have been shared with you by other users, granting you specific permissions to view and collaborate on them within a controlled environment.
 
 ### Adding Entries to a Topic
 
-- When viewing a topic, such as the 'Gaming Topic', you can add new entries by tapping on **ADD ENTRY +**. Here, you can write content, share images, and document experiences related to the topic.
+- To contribute to a topic, such as **'Gaming Topic'**, tap **Add Entry**. You can then write content, upload images, and document experiences related to the topic.
 
 ### Profile and Settings
 
-- The 'Profile' screen allows you to view your personal information, including your username, country, and contact options like email and website.
-- Users can visit each other's profiles to learn more about them and view the topics they have published.
-- The 'Settings' screen provides a summary of your personal information and offers access to modify your account details and contact preferences.
+- **Profile Screen**  
+  View your personal information, including your username, country, and contact details such as email and website. You can also visit other users' profiles to learn more about them and their published topics.
+
+- **Settings Screen**  
+  Access and modify your account details and contact preferences. This screen provides an overview of your personal information and account settings.
 
 ### Searching for Users
 
-- The app includes a feature to search for other users. This functionality lets you view the profiles of fellow users, see their published topics, and potentially engage with their content, depending on permissions.
+- Utilize the search feature to find and view profiles of other users. This allows you to explore their published topics and potentially engage with their content, depending on the permissions granted.
 
 ### Permissions and Accessibility
 
-- Permissions play a crucial role in the app. They determine what content you can view and interact with. If you try to access a topic without the required permissions, the app will notify you that access is not allowed.
+- Permissions are essential in determining what content you can view and interact with. If you attempt to access a topic without the required permissions, the app will notify you that access is not permitted.
 
 ### Additional Notes
 
-- The app is designed with user collaboration and privacy in mind, creating a space where personal and shared experiences can be documented and discussed within a community setting or in private.
+- The app is designed to facilitate user collaboration and maintain privacy. It provides a space for documenting and discussing personal and shared experiences within a community or private setting.
 
-Please ensure you're familiar with the app's functionality to get the most out of your experience. If you have any questions or require assistance, refer to this guide or contact support.
+Familiarize yourself with the app's functionalities to enhance your experience. For further assistance or questions, refer to this guide or contact support.
 
-## Create a Topic
+
+## **Create a Topic**
 
 Follow these steps to create a new topic in the app:
 
