@@ -1,12 +1,55 @@
 # MemoInk - Personal Diary App
 
-MemoInk is a mobile application designed for Android devices, meticulously crafted using Visual Studio 2022 and leveraging the power of Xamarin Forms. Developed as part of a university project, the app is programmed in C# and seamlessly integrates with a Realtime Database from Firebase. This dynamic connection facilitates smooth communication between the app and the database, enabling users to effortlessly receive and update information in real-time.
+# MemoInk - Personal Diary App
 
-Functioning as a versatile Diary App, MemoInk empowers users to curate their life experiences through the creation of personalized Topics. Within each Topic, users can compose unlimited Entries, enriching their memories with images or text. What sets MemoInk apart is its collaborative feature, allowing users to designate permissions for others to access, edit and contribute new Entries to a shared Topic. This collaborative approach transforms the app into a virtual canvas for friends and family to collectively build and cherish meaningful memories.
+**MemoInk** is an Android mobile application, developed using **Visual Studio 2022** and **Xamarin Forms**. Created as part of a university project, it's built with **C#** and integrates with Firebase's **Realtime Database** for real-time data synchronization.
 
-MemoInk's thoughtful design extends to privacy preferences, offering users the flexibility to choose between private or public profiles. This choice enables individuals to decide whether to share their cherished memories with a group or with the entire world, fostering a personalized and secure space for capturing and sharing life's beautiful moments.
+MemoInk functions as a Diary App, allowing users to create personalized **Topics** where they can add unlimited **Entries** enriched with text or images. Furthermore, MemoInk lets users grant permissions for others to access, edit, and contribute new Entries to a shared Topic. This turns the app into a collaborative space where friends and family can collectively build and cherish meaningful memories.
 
-# Installation Guide
+The app also offers privacy options, allowing users to choose between private or public profiles. This feature enables individuals to decide whether to share their memories with a selected group or with the entire world, providing a personalized and secure environment for capturing and sharing life’s beautiful moments.
+
+
+## **Table of Contents**
+
+1. [Key Features](#key-features)
+2. [System Requirements](#system-requirements)
+3. [Installation Guide](#installation-guide)
+4. [Complete Functionality Guide](#complete-functionality-guide)
+    - [Home Screen](#home-screen)
+    - [Creating a New Topic](#creating-a-new-topic)
+    - [Adding Entries to a Topic](#adding-entries-to-a-topic)
+    - [Profile and Settings](#profile-and-settings)
+    - [Searching for Users](#searching-for-users)
+    - [Permissions and Accessibility](#permissions-and-accessibility)
+5. [How to Create a New Topic](#how-to-create-a-new-topic)
+6. [Copyright](#copyright)
+7. [Screenshots](#screenshots)
+
+## **Key Features**
+
+- **Personalized Diary Entries:** Create custom Topics to organize your thoughts and memories. Add as many Entries as you like, using text and images to bring your memories to life.
+  
+- **Collaborative Sharing:** Share your Topics with others, allowing them to view, edit, and add their own Entries. This makes MemoInk a great way to create shared memories with friends and family.
+
+- **Privacy Options:** Choose between private or public profiles, giving you control over who can see your content. MemoInk ensures your memories are stored in a secure environment.
+
+## **System Requirements**
+
+### **Minimum Requirements**
+- **Operating System:** Android 7.0 (Nougat) or higher
+- **Processor:** Quad-core 1.4 GHz or equivalent
+- **RAM:** 2 GB
+- **Storage:** 200 MB of free space
+- **Internet:** A stable internet connection is required for real-time updates
+
+### **Recommended Requirements**
+- **Operating System:** Android 10.0 (Q) or higher
+- **Processor:** Octa-core 2.0 GHz or higher
+- **RAM:** 4 GB or more
+- **Storage:** 500 MB of free space
+- **Internet:** High-speed internet for the best experience
+
+## **Installation Guide**
 
 To install the app on your Android device, follow these steps:
 
@@ -28,7 +71,7 @@ To install the app on your Android device, follow these steps:
 
 > **Note:** Ensure you have a minimum of 200MB of free space and a stable internet connection for uninterrupted service use.
 
-# Complete Functionality Guide
+## **Complete Functionality Guide**
 
 ### Home Screen
 
@@ -67,7 +110,7 @@ To install the app on your Android device, follow these steps:
 
 Please ensure you're familiar with the app's functionality to get the most out of your experience. If you have any questions or require assistance, refer to this guide or contact support.
 
-# How to Create a New Topic
+## **How to Create a New Topic**
 
 Creating a new topic in the app is a simple process. Just follow the steps below:
 
@@ -85,22 +128,15 @@ Creating a new topic in the app is a simple process. Just follow the steps below
 
 Remember, you can always edit the topic details and permissions later if you need to make changes.
 
+## **Copyright**
 
-# Copyright
+By downloading and using **MemoInk**, you agree to be bound by the license terms. This license grants you a limited, non-transferable right to use the app for personal, non-commercial purposes. Modifying the app, sharing it, or using it in a commercial context is strictly prohibited without prior written consent from the Author.
 
-This software program, **MemoInk**, is an intellectual creation of me, Bernd Hagen, the author and copyright holder, and is protected by copyright law. This comprehensive copyright notice outlines the terms and conditions governing the use, distribution, and modification of MemoInk:
+The Author reserves the right to terminate your license if these terms are violated. No warranties are provided with the app, and the Author is not liable for any damages arising from its use. You are solely responsible for ensuring your usage complies with all applicable laws.
 
-1. **License**: MemoInk is made available for free download and use without requiring a separate license. You are granted a limited, non-exclusive, and non-transferable right to use the software in accordance with the terms set forth herein.
+For full details on licensing terms and further information, please refer to the [LICENSE](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/LICENSE) file.
 
-2. **Prohibited Modifications**: You are expressly prohibited from modifying, decompiling, disassembling, reverse engineering, or otherwise manipulating MemoInk in any manner. Any attempts to do so will be deemed a clear violation of this copyright.
-
-3. **Warranty Disclaimer**: MemoInk is provided *"as is,"* without any warranty of any kind, whether express or implied. This includes, but is not limited to, warranties of merchantability, fitness for a particular purpose, and noninfringement. The author and copyright holder make no guarantees regarding the accuracy, reliability, or performance of the software.
-
-4. **Limitation of Liability**: In no event shall the author or copyright holder be held liable for any claims, damages, or other liabilities, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use thereof. You expressly understand and agree that you assume all risks associated with the use of MemoInk.
-
-By downloading, installing, or using MemoInk, you acknowledge that you have read and understood this copyright notice and agree to abide by its terms and conditions. Failure to comply with these terms may result in legal action and the revocation of your rights to use MemoInk.
-
-# Screenshots
+## **Screenshots**
 
 If you'd like to preview the appearance of MemoInk before downloading the apk folder, you can explore the screenshots provided below. Each screenshot showcases the various functions and features of the app. Keep in mind that future updates may introduce additional functionalities to enhance user experience.
 
