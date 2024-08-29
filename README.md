@@ -1,13 +1,10 @@
 # MemoInk - Personal Diary App
 
-# MemoInk - Personal Diary App
-
 **MemoInk** is an Android mobile application, developed using **Visual Studio 2022** and **Xamarin Forms**. Created as part of a university project, it's built with **C#** and integrates with Firebase's **Realtime Database** for real-time data synchronization.
 
 MemoInk functions as a Diary App, allowing users to create personalized **Topics** where they can add unlimited **Entries** enriched with text or images. Furthermore, MemoInk lets users grant permissions for others to access, edit, and contribute new Entries to a shared Topic. This turns the app into a collaborative space where friends and family can collectively build and cherish meaningful memories.
 
 The app also offers privacy options, allowing users to choose between private or public profiles. This feature enables individuals to decide whether to share their memories with a selected group or with the entire world, providing a personalized and secure environment for capturing and sharing life’s beautiful moments.
-
 
 ## **Table of Contents**
 
@@ -24,14 +21,6 @@ The app also offers privacy options, allowing users to choose between private or
 5. [How to Create a New Topic](#how-to-create-a-new-topic)
 6. [Copyright](#copyright)
 7. [Screenshots](#screenshots)
-
-## **Key Features**
-
-- **Personalized Diary Entries:** Create custom Topics to organize your thoughts and memories. Add as many Entries as you like, using text and images to bring your memories to life.
-  
-- **Collaborative Sharing:** Share your Topics with others, allowing them to view, edit, and add their own Entries. This makes MemoInk a great way to create shared memories with friends and family.
-
-- **Privacy Options:** Choose between private or public profiles, giving you control over who can see your content. MemoInk ensures your memories are stored in a secure environment.
 
 ## **System Requirements**
 
@@ -54,22 +43,30 @@ The app also offers privacy options, allowing users to choose between private or
 To install the app on your Android device, follow these steps:
 
 1. **Download the APK**
+   - Open your web browser on your Android device.
    - Navigate to the [Releases](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/releases) page of this repository.
-   - Download the latest `.apk` file to your device.
+   - Scroll down to the **Assets** section under the latest release.
+   - Tap on the `.apk` file to start the download. You may be prompted to confirm the download, depending on your browser settings.
 
 2. **Allow Installation from Unknown Sources**
-   - On your Android device, go to **Settings** > **Security**.
-   - Enable the option to allow installations from unknown sources.
+   - Go to your device’s **Settings** by tapping the gear icon on your home screen or app drawer.
+   - Scroll down and select **Security** or, on certain devices, **Biometrics and Security**.
+   - Look for the option **Install unknown apps** or **Unknown sources**.
+   - Tap on it, then select the browser or file manager you used to download the APK.
+   - Toggle the switch to **Allow from this source**. This step may vary slightly depending on your Android version.
 
 3. **Install the APK**
-   - Open the downloaded `.apk` file on your device.
-   - Tap **Install** to begin the installation process.
+   - Open your file manager app and navigate to the **Downloads** folder where the APK was saved.
+   - Tap on the downloaded `.apk` file.
+   - A prompt will appear asking if you want to install the application. Review the permissions if necessary, then tap **Install**.
+   - The installation process will begin and may take a few moments to complete.
 
 4. **Open and Enjoy**
-   - Once installed, open the app from your device's app drawer.
-   - Register for a new account to start using MemoInk and keep your memories securely stored.
+   - Once the installation is complete, tap **Open** from the installation screen or find the app icon in your app drawer.
+   - Launch the app, and you’ll be prompted to either log in or create a new account.
+   - Follow the on-screen instructions to register and start using MemoInk to create new Topics.
 
-> **Note:** Ensure you have a minimum of 200MB of free space and a stable internet connection for uninterrupted service use.
+> **Note:** If the installation failed, check that you have enough free space on your device and the right permissions
 
 ## **Complete Functionality Guide**
 
@@ -110,23 +107,32 @@ To install the app on your Android device, follow these steps:
 
 Please ensure you're familiar with the app's functionality to get the most out of your experience. If you have any questions or require assistance, refer to this guide or contact support.
 
-## **How to Create a New Topic**
+## Create a Topic
 
-Creating a new topic in the app is a simple process. Just follow the steps below:
+Follow these steps to create a new topic in the app:
 
-1. Tap on the **plus symbol (+)** located in the bottom navigation bar to start creating a new topic.
+1. **Initiate Topic Creation**  
+   Tap the plus symbol (+) in the bottom navigation bar to start the process.
 
-2. Once the 'New Topic' page opens, you will see the 'Topic Details' section at the top. Here, enter the title of your new topic in the provided text field.
+2. **Enter Topic Details**  
+   On the `New Topic` page, locate the `Topic Details` section at the top. Enter the title for your new topic in the provided text field.
 
-3. Select the date for your topic by tapping on the date field. A calendar may pop up where you can choose the desired date.
+3. **Select a Date**  
+   Tap on the **date field**. A calendar view will appear. Select the desired date for your topic.
 
-4. Scroll down to the 'User Permissions' section to set who can view or participate in this topic. You can select individual users by checking the box next to their name. If you want to allow all users to access the topic, tap the **SELECT ALL USERS** button.
+4. **Configure User Permissions**  
+   - Scroll to the `User Permissions` section.
+   - **Individual User Access:** Check the boxes next to the names of users you wish to grant access.
+   - **All Users Access:** To allow all users to view or participate in the topic, tap the `Select All Users` button.
 
-5. After setting up your permissions, review all information you've entered.
+5. **Review Information**  
+   Review all the information you have entered to ensure it is accurate and complete.
 
-6. To finalize the creation of your topic, tap the **SAVE** button located at the bottom of the screen. If you wish to discard the topic, tap **CANCEL**.
+6. **Save or Cancel**  
+   - **To Save:** Tap the `Save` button located at the bottom of the screen.
+   - **To Discard:** Tap `Cancel` if you decide not to proceed.
 
-Remember, you can always edit the topic details and permissions later if you need to make changes.
+> **Note:** You can edit the topic details and permissions at any time if changes are needed.
 
 ## **Copyright**
 
@@ -138,12 +144,12 @@ For full details on licensing terms and further information, please refer to the
 
 ## **Screenshots**
 
-If you'd like to preview the appearance of MemoInk before downloading the apk folder, you can explore the screenshots provided below. Each screenshot showcases the various functions and features of the app. Keep in mind that future updates may introduce additional functionalities to enhance user experience.
+If you'd like to preview the appearance of MemoInk before downloading the apk, you can explore the screenshots provided below. Each screenshot showcases the various functions and features of the app. Keep in mind that future updates may introduce additional functionalities to enhance user experience.
 
-| Login Screen                 | Home Screen                  | Topic Screen                 |
+| MemoInk - Login              | MemoInk - Home               | MemoInk - Topics             |
 |------------------------------|------------------------------|------------------------------|
 | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_login.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_topics.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_add.png" width="300px"> |
 
-| Entry Screen                 | Profile Screen               | Settings Screen              |
+| MemoInk - Entries            | MemoInk - Profile            | MemoInk - Settings           |
 |------------------------------|------------------------------|------------------------------|
 | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_entry.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_profile.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/screenshots/v1.0.0-memoink_settings.png" width="300px"> |
