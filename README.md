@@ -1,10 +1,26 @@
-# MemoInk - Personal Diary App
+# **MemoInk - Personal Diary App**
 
-Welcome to **MemoInk**, a personal diary application that we developed using **Xamarin Forms** in **Visual Studio 2022**. Built with **C#** and integrated with Firebase's **Realtime Database**, this app emerged from our university project with the goal of creating a meaningful way to capture and share life's moments.
+**MemoInk** is a modern personal diary application built with Xamarin Forms that transforms the way you document and share life's moments. Whether you're keeping a private journal or collaborating on shared memories, MemoInk provides an intuitive platform for creating Topics and filling them with unlimited Entries containing text and images. With real-time synchronization powered by Firebase's Realtime Database, your memories are always secure and accessible.
 
-What makes MemoInk special is its ability to transform personal journaling into a shared experience. Users can create **Topics** and fill them with unlimited **Entries** containing text and images. But here's where it gets interesting - you can invite others to contribute to your Topics, making it perfect for collaborative storytelling with friends and family.
+### **Key Features**
 
-We've put special emphasis on privacy - you decide whether to keep your profile private or public. This way, you have complete control over who gets to be part of your journey.
+- **Collaborative Topics:** Create and manage Topics that can be shared with friends and family
+- **Unlimited Entries:** Add text and images to document your experiences
+- **Privacy Control:** Choose between private and public profiles
+- **Real-time Sync:** Changes are instantly synchronized across all devices
+- **User Management:** Search and connect with other users
+- **Permission System:** Fine-grained control over who can view and contribute
+
+### **Core Functionality**
+
+MemoInk offers a comprehensive set of features designed to enhance your journaling experience:
+
+- **Topic Management:** Create, edit, and organize your personal or shared Topics
+- **Entry System:** Add detailed entries with support for text and images
+- **User Collaboration:** Invite others to contribute to your Topics
+- **Privacy Settings:** Control your profile's visibility and Topic access
+- **Search Capabilities:** Find and connect with other users
+- **Real-time Updates:** Instant synchronization of all changes
 
 ## **Table of Contents**
 
