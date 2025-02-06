@@ -1,26 +1,26 @@
 # **MemoInk - Personal Diary App**
 
-**MemoInk** is a modern personal diary application built with Xamarin Forms that transforms the way you document and share life's moments. Whether you're keeping a private journal or collaborating on shared memories, MemoInk provides an intuitive platform for creating Topics and filling them with unlimited Entries containing text and images. With real-time synchronization powered by Firebase's Realtime Database, your memories are always secure and accessible.
+**MemoInk** is a comprehensive personal diary and collaborative documentation platform built with Xamarin Forms. The application enables users to create structured Topics and populate them with rich multimedia Entries. Leveraging real-time database technology, MemoInk ensures your content remains secure and synchronized across all your devices while offering sophisticated permission controls for both private journaling and shared documentation.
 
 ### **Key Features**
 
-- **Collaborative Topics:** Create and manage Topics that can be shared with friends and family
-- **Unlimited Entries:** Add text and images to document your experiences
-- **Privacy Control:** Choose between private and public profiles
-- **Real-time Sync:** Changes are instantly synchronized across all devices
-- **User Management:** Search and connect with other users
-- **Permission System:** Fine-grained control over who can view and contribute
+- **Topic Management:** Create and organize personal or collaborative documentation spaces
+- **Rich Media Support:** Add text and images to document your experiences in detail
+- **Real-time Sync:** Instant synchronization across all devices without manual intervention
+- **Permission System:** Fine-grained access control for content sharing
+- **User Collaboration:** Connect with others and create shared documentation spaces
+- **Secure Storage:** All content is encrypted and stored securely in the cloud
 
-### **Core Functionality**
+### **Supported Content Types**
 
-MemoInk offers a comprehensive set of features designed to enhance your journaling experience:
+MemoInk supports various content formats to enhance your documentation:
 
-- **Topic Management:** Create, edit, and organize your personal or shared Topics
-- **Entry System:** Add detailed entries with support for text and images
-- **User Collaboration:** Invite others to contribute to your Topics
-- **Privacy Settings:** Control your profile's visibility and Topic access
-- **Search Capabilities:** Find and connect with other users
-- **Real-time Updates:** Instant synchronization of all changes
+- **Text Formats:** Plain text, Rich text, Markdown
+- **Image Formats:** JPEG, PNG, GIF
+- **Maximum File Sizes:**
+  - Text entries: Unlimited
+  - Images: Up to 10MB per image
+  - Storage: Based on account tier
 
 ## **Table of Contents**
 
@@ -35,26 +35,27 @@ MemoInk offers a comprehensive set of features designed to enhance your journali
     - [Searching for Users](#searching-for-users)
     - [Permissions and Accessibility](#permissions-and-accessibility)
 5. [How to Create a New Topic](#how-to-create-a-new-topic)
-6. [Copyright](#copyright)
-7. [Screenshots](#screenshots)
+6. [Data Collection and Account Management](#data-collection-and-account-management)
+7. [Copyright](#copyright)
+8. [Screenshots](#screenshots)
 
 ## **System Requirements**
 
-We've tested MemoInk extensively to ensure smooth performance across different Android devices. Here's what you'll need:
-
 ### **Minimum Requirements**
-- **Operating System:** Android 7.0 (Nougat) or higher
-- **Processor:** Quad-core 1.4 GHz or equivalent
+- **Operating System:** Android 7.0 (Nougat)
+- **Processor:** Quad-core 1.4 GHz
 - **RAM:** 2 GB
-- **Storage:** 200 MB of free space
-- **Internet:** A stable internet connection is required for real-time updates
+- **Storage:** 200 MB free space
+- **Network:** Active internet connection
+- **Screen:** 720x1280 resolution
 
 ### **Recommended Requirements**
-- **Operating System:** Android 10.0 (Q) or higher
-- **Processor:** Octa-core 2.0 GHz or higher
-- **RAM:** 4 GB or more
-- **Storage:** 500 MB of free space
-- **Internet:** High-speed internet for the best experience
+- **Operating System:** Android 10.0 or higher
+- **Processor:** Octa-core 2.0 GHz
+- **RAM:** 4 GB
+- **Storage:** 500 MB free space
+- **Network:** High-speed internet connection
+- **Screen:** 1080x1920 resolution or higher
 
 ## **Installation Guide**
 
@@ -93,14 +94,12 @@ Let us walk you through the main features we've implemented:
 ### Home Screen
 
 - **Global Topics**  
-  The home screen features the 20 most recent topics in the **'Global Topics'** section. These topics are accessible to the entire user base, though access is permission-based. If you lack the necessary permissions, you will receive a notification indicating that access is restricted.
-
-- **Shared Topics**  
-  Below **'Global Topics'**, you will find the **'Shared Topics'** section. These topics have been shared with you by other users, granting you specific permissions to view and collaborate on them within a controlled environment.
+  The home screen displays all available topics sorted chronologically, with the newest appearing first. Access to topics is permission-based - if you lack the necessary permissions, you'll receive a notification indicating that access is restricted.
 
 ### Adding Entries to a Topic
 
-- To contribute to a topic, such as **'Gaming Topic'**, tap **Add Entry**. You can then write content, upload images, and document experiences related to the topic.
+- To contribute to a topic, tap **Add Entry**. You can write content and upload images. Each entry automatically captures the current date and time.
+- Users can appreciate entries by tapping on them, which turns the text green and increments the like counter.
 
 ### Profile and Settings
 
@@ -108,7 +107,14 @@ Let us walk you through the main features we've implemented:
   View your personal information, including your username, country, and contact details such as email and website. You can also visit other users' profiles to learn more about them and their published topics.
 
 - **Settings Screen**  
-  Access and modify your account details and contact preferences. This screen provides an overview of your personal information and account settings.
+  Access and modify your account details and contact preferences. 
+  **Important:** Deleting your account will permanently remove all topics you've created, including all entries within those topics - even entries made by other users.
+
+### Topic Management
+
+- **Creating Topics:** New topics automatically capture the current date and time of creation
+- **Editing Topics:** Users with appropriate permissions can modify topic names and user permissions at any time
+- **Access Control:** Fine-grained permission system determines who can view and contribute to topics
 
 ### Searching for Users
 
@@ -132,24 +138,33 @@ Creating a new topic is intuitive and flexible. Here's the process we've designe
    Tap the plus symbol (+) in the bottom navigation bar to start the process.
 
 2. **Enter Topic Details**  
-   On the `New Topic` page, locate the `Topic Details` section at the top. Enter the title for your new topic in the provided text field.
+   On the `New Topic` page, locate the `Topic Details` section at the top. Enter the title for your new topic in the provided text field. The current date and time will be automatically captured when the topic is created.
 
-3. **Select a Date**  
-   Tap on the **date field**. A calendar view will appear. Select the desired date for your topic.
-
-4. **Configure User Permissions**  
+3. **Configure User Permissions**  
    - Scroll to the `User Permissions` section.
    - **Individual User Access:** Check the boxes next to the names of users you wish to grant access.
    - **All Users Access:** To allow all users to view or participate in the topic, tap the `Select All Users` button.
 
-5. **Review Information**  
-   Review all the information you have entered to ensure it is accurate and complete.
+4. **Review Information**  
+   Review the topic title and permissions to ensure everything is set correctly.
 
-6. **Save or Cancel**  
+5. **Save or Cancel**  
    - **To Save:** Tap the `Save` button located at the bottom of the screen.
    - **To Discard:** Tap `Cancel` if you decide not to proceed.
 
-> **Note:** You can edit the topic details and permissions at any time if changes are needed.
+> **Note:** You can edit the topic title and permissions at any time if changes are needed.
+
+## **Data Collection and Account Management**
+
+MemoInk stores the following data to enhance your experience:
+
+- User profile and preferences
+- Topic structures and permissions
+- Entry content and media files
+- Collaboration settings
+- Usage statistics and activity logs
+
+All data is encrypted and stored securely in our cloud infrastructure. Premium users receive expanded storage quotas and enhanced backup options.
 
 ## **Copyright**
 
