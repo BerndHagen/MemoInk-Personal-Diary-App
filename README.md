@@ -19,14 +19,13 @@
 4. [Complete Functionality Guide](#complete-functionality-guide)
    - [Home Screen](#home-screen)
    - [Creating a New Topic](#creating-a-new-topic)
-   - [Adding Entries to a Topic](#adding-entries-to-a-topic)
+   - [Adding Entries](#adding-entries)
    - [Profile and Settings](#profile-and-settings)
    - [Searching for Users](#searching-for-users)
-   - [Permissions and Accessibility](#permissions-and-accessibility)
-5. [How to Create a New Topic](#how-to-create-a-new-topic)
-6. [Data Collection and Account Management](#data-collection-and-account-management)
-7. [Copyright](#copyright)
-8. [Screenshots](#screenshots)
+   - [Permissions and Access](#permissions-and-access)
+5. [Data Collection and Account Management](#data-collection-and-account-management)
+6. [Usage Terms & License Agreement](#usage-terms--license-agreement)
+7. [Screenshots](#screenshots)
 
 ## **System Requirements**
 
@@ -120,12 +119,6 @@ Getting started with MemoInk is straightforward. Here's how to get it running on
   - Click **Edit Topic Settings** to reveal additional options 
   - Check or uncheck users to adjust permissions
 
-### Adding Entries to a Topic
-
-- **Creating Topics:** New topics automatically capture the current date and time of creation
-- **Editing Topics:** Users with appropriate permissions can modify topic names and user permissions at any time
-- **Access Control:** Fine-grained permission system determines who can view and contribute to topics
-
 > **Note:** In the settings, you can choose to set your profile to Public or Private.  If your profile is Private, your created topics won’t be displayed when others search for you.
 
 ## Technical Stack & Libraries
@@ -147,36 +140,37 @@ These Firebase services ensure reliable data synchronization and secure storage 
 - **Newtonsoft.Json:** Handles JSON serialization and deserialization for data processing
 - **NetStandard.Library:** Provides .NET Standard compatibility for core functionality
 
-### Additional Information
-For technical questions or issues related to MemoInk's implementation, please [open an issue](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/issues) on GitHub.
+> **Note:** For technical questions or issues related to MemoInk's implementation, please [open an issue](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/issues) on GitHub.
 
 ## **Data Collection and Account Management**
 
-MemoInk stores the following data to enhance your experience:
+MemoInk collects and stores data to enhance user experience, ensure security and provide personalized features.  
 
-- User profile and preferences
-- Topic structures and permissions
-- Entry content and media files
-- Collaboration settings
-- Usage statistics and activity logs
+### **Stored User Data**
+- **Profile Information:** Full Name, Username, Email, Password (encrypted), Profile Picture, User Description, Birthday, Gender, Country, Website  
+- **Account Settings:** Privacy Status (Public/Private), Authorized Usernames for Shared Topics
+- **Communication Details:** Discord Handle  
+- **Activity and Content:** Created Topics (titles, descriptions, permissions), Entries (text, images, timestamps), Collaboration Settings
 
-All data is encrypted and stored securely in our cloud infrastructure. Premium users receive expanded storage quotas and enhanced backup options.
+### **Data Security and Storage**  
+All collected data is encrypted and stored securely in our cloud infrastructure.   
+Images, media files, and user-generated content are securely stored with access controls in place.  
 
-## **Copyright**
+> **Note:** Deleting an account permanently removes all associated topics and their entries, including contributions from other users.  
 
-While we're excited to share MemoInk with you, it's important to note the usage terms:
+## **Usage Terms & License Agreement**  
 
-By downloading and using **MemoInk**, you agree to be bound by the license terms. This license grants you a limited, non-transferable right to use the app for personal, non-commercial purposes. Modifying the app, sharing it, or using it in a commercial context is strictly prohibited without prior written consent from the Author.
+We're thrilled to share **MemoInk** with you! Before using the app, please review the following terms:  
 
-The Author reserves the right to terminate your license if these terms are violated. No warranties are provided with the app, and the Author is not liable for any damages arising from its use. You are solely responsible for ensuring your usage complies with all applicable laws.
+By downloading and using **MemoInk**, you agree to the **license terms**, which grant you a **limited, non-transferable** right to use the app for **personal, non-commercial purposes**. Any modification, distribution, or commercial use of the app **without prior written consent** from the Author is strictly prohibited.  
 
-For full details on licensing terms and further information, please refer to the [LICENSE](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/LICENSE) file.
+The Author reserves the right to **terminate your license** if these terms are violated. The app is provided **"as is"**, without warranties of any kind. The Author assumes **no liability** for any damages resulting from its use. You are solely responsible for ensuring that your usage complies with all **applicable laws**.  
+
+For complete details, please refer to the **[LICENSE](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/LICENSE)** file.  
 
 ## **Screenshots**
 
-We've included some screenshots to give you a better feel for the app's interface and functionality. These captures showcase the key features we've discussed:
-
-If you'd like to preview the appearance of MemoInk before downloading the apk, you can explore the screenshots provided below. Each screenshot showcases the various functions and features of the app. Keep in mind that future updates may introduce additional functionalities to enhance user experience.
+To give you a better understanding of **MemoInk**'s interface and functionality, we've included some screenshots below. These images highlight the key features of the app. Feel free to explore the screenshots to get a preview of the app's design and functions before downloading the APK. Please note that future updates may introduce additional features to further enhance the user experience.  
 
 | MemoInk - Home              | MemoInk - Search               | MemoInk - Topics             |
 |------------------------------|------------------------------|------------------------------|
