@@ -1,4 +1,7 @@
-# MEMOINK ANDROID APP COPYRIGHT NOTICE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+|                      MEMOINK ANDROID APP                        |
+|                       COPYRIGHT NOTICE                          |
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This document constitutes the full and exclusive copyright notice for 
 **MemoInk**, an Android app developed and authored by **Bernd Hagen 
@@ -8,8 +11,8 @@ documentation, executable binaries, and associated materials
 laws and treaties. The Authors reserve all rights not expressly granted
 through this notice.
 
-## LICENSE GRANT
-
+>> LICENSE GRANT
+------------------------------
 Subject to the terms of this Copyright Notice, the Authors grant you 
 a revocable, non-exclusive, non-transferable, limited license to 
 download, install, and use the Mobile App for personal, non-commercial 
@@ -17,9 +20,8 @@ purposes. This License does not allow for distribution, public
 performance, or public display of the Mobile App, except as expressly 
 permitted by the Authors.
 
-## RESTRICTIONS
-
-### **Modification**
+>> RESTRICTIONS
+------------------------------
 You are prohibited from altering, modifying, adapting, 
 translating, or creating derivative works of the Mobile App without 
 prior written consent from the Authors. Prohibited modifications 
@@ -31,7 +33,8 @@ include, but are not limited to:
 - Modifying stored data in ways that could compromise the integrity 
   of MemoInk’s cloud synchronization features.
 
-### **Distribution**
+>> Distribution
+------------------------------
 Redistribution of the Mobile App, in whole or in part, 
 without explicit written permission from the Authors is strictly 
 forbidden. This includes, but is not limited to:
@@ -40,7 +43,8 @@ forbidden. This includes, but is not limited to:
 - Making MemoInk available through unauthorized platforms or APK-sharing 
 services.
 
-### **Commercial Use**
+>> Commercial Use
+------------------------------
 Any use of the Mobile App in a commercial context is 
 strictly prohibited under this License, unless a separate agreement 
 is made with the Authors. Prohibited commercial activities include:
@@ -49,8 +53,8 @@ is made with the Authors. Prohibited commercial activities include:
 - Using MemoInk as part of a paid service or platform without 
 authorization.
 
-## DISCLAIMER OF WARRANTIES
-
+>> DISCLAIMER OF WARRANTIES
+------------------------------
 The Mobile App is provided "AS IS," without warranty of any kind, 
 express or implied, including but not limited to the warranties of 
 merchantability, fitness for a particular purpose, and 
@@ -59,8 +63,8 @@ claim, damages, or other liability, whether in an action of contract,
 tort, or otherwise, arising from, out of, or in connection with the 
 Mobile App or the use or other dealings in the Mobile App.
 
-## LIMITATION OF LIABILITY
-
+>> LIMITATION OF LIABILITY
+------------------------------
 To the maximum extent permitted by applicable law, in no event shall 
 the Authors be liable for any special, incidental, indirect, or 
 consequential damages whatsoever (including, without limitation, 
@@ -69,8 +73,8 @@ business information, or any other pecuniary loss) arising out of the
 use of or inability to use the Mobile App, even if the Authors have been 
 advised of the possibility of such damages.
 
-## DATA COLLECTION AND PRIVACY
-
+>> DATA COLLECTION AND PRIVACY
+------------------------------
 MemoInk integrates **Firebase Realtime Database** and **Firebase Storage** 
 for real-time data synchronization and media handling. The Mobile App 
 collects and processes user data, including but not limited to:
@@ -82,8 +86,8 @@ The Authors do **not** sell or share user data with third parties
 for advertising or commercial gain. Data is stored securely in Firebase 
 and adheres to applicable privacy regulations.
 
-## GENERAL TERMS
-
+>> GENERAL TERMS
+------------------------------
 By downloading, installing, or using the Mobile App, you acknowledge 
 that you have read, understood, and agree to be bound by the terms 
 of this Copyright Notice. Violation of any terms of this Notice may 
@@ -91,14 +95,14 @@ result in immediate termination of your license, legal action, and/or
 penalties as deemed appropriate by the Authors and under applicable 
 law.
 
-## GOVERNING LAW
-
+>> GOVERNING LAW
+------------------------------
 This Copyright Notice shall be governed by and construed in 
 accordance with the laws of the jurisdiction in which the Authors 
 reside, without regard to its conflict of law provisions.
 
-## AMENDMENTS
-
+>> AMENDMENTS
+------------------------------
 The Authors reserve the right to amend or update these terms at any 
 time without notice. Your continued use of the Mobile App after any 
 such changes indicates your acceptance of the new terms.
