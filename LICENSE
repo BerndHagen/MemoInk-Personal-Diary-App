@@ -4,8 +4,8 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This document constitutes the full and exclusive copyright notice for 
-**MemoInk**, an Android app developed and authored by **Bernd Hagen 
-and Belinda Hagen** ("Authors"). MemoInk, including its source code,
+MemoInk, an Android app developed and authored by Bernd Hagen 
+and Belinda Hagen ("Authors"). MemoInk, including its source code,
 documentation, executable binaries, and associated materials 
 (collectively, "Mobile App"), is protected under international copyright
 laws and treaties. The Authors reserve all rights not expressly granted
@@ -75,7 +75,7 @@ advised of the possibility of such damages.
 
 >> DATA COLLECTION AND PRIVACY
 ------------------------------
-MemoInk integrates **Firebase Realtime Database** and **Firebase Storage** 
+MemoInk integrates Firebase Realtime Database and Firebase Storage
 for real-time data synchronization and media handling. The Mobile App 
 collects and processes user data, including but not limited to:
 - User-generated content (text, images, and shared topics).
