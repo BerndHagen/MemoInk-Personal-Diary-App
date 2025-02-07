@@ -196,9 +196,9 @@ We've included some screenshots to give you a better feel for the app's interfac
 
 If you'd like to preview the appearance of MemoInk before downloading the apk, you can explore the screenshots provided below. Each screenshot showcases the various functions and features of the app. Keep in mind that future updates may introduce additional functionalities to enhance user experience.
 
-| MemoInk - Login              | MemoInk - Home               | MemoInk - Topics             |
+| MemoInk - Home              | MemoInk - Search               | MemoInk - Topics             |
 |------------------------------|------------------------------|------------------------------|
-| <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/img/v1.0.2-memoink_login.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/img/v1.0.2-memoink_topics.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/img/v1.0.2-memoink_add.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/img/v1.0.2-memoink_topics.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/img/v1.0.2-memoink_search.png" width="300px"> | <img src="https://github.com/BerndHagen/MemoInk-Mobile-App/raw/main/img/v1.0.2-memoink_add.png" width="300px"> |
 
 | MemoInk - Entries            | MemoInk - Profile            | MemoInk - Settings           |
 |------------------------------|------------------------------|------------------------------|
