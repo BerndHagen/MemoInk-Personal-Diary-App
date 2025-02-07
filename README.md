@@ -1,6 +1,6 @@
 # **MemoInk - Personal Diary App**
 
-**MemoInk** is a comprehensive personal diary and collaborative documentation platform built with Xamarin Forms. The application enables users to create structured Topics and populate them with rich multimedia Entries. Leveraging real-time database technology, MemoInk ensures your content remains secure and synchronized across all your devices while offering sophisticated permission controls for both private journaling and shared documentation. Originally developed as a university project, MemoInk has been refined with stability improvements and additional features to enhance the overall user experience.
+**MemoInk** is a digital companion for both personal journaling and team documentation, developed using Xamarin Forms and C# in Visual Studio 2022. Whether you want to keep a private diary or work together with others, MemoInk makes it simple and enjoyable. The app lets you organize your thoughts into Topics, which you can fill with all kinds of content - text, images and more. Everything syncs automatically across your devices, so your memories and notes are always at your fingertips. What makes MemoInk special is its flexibility. Keep your personal entries private or share selected content with others. Originally, MemoInk was a university project and we've fine-tuned the app based on user feedback to make it more reliable and feature-rich.
 
 ### **Key Features**
 
@@ -11,29 +11,18 @@
 - **User Collaboration:** Connect with others and create shared documentation spaces
 - **Secure Storage:** All content is encrypted and stored securely in the cloud
 
-### **Supported Content Types**
-
-MemoInk supports various content formats to enhance your documentation:
-
-- **Text Formats:** Plain text, Rich text, Markdown
-- **Image Formats:** JPEG, PNG, GIF
-- **Maximum File Sizes:**
-  - Text entries: Unlimited
-  - Images: Up to 10MB per image
-  - Storage: Based on account tier
-
 ## **Table of Contents**
 
 1. [Key Features](#key-features)
 2. [System Requirements](#system-requirements)
 3. [Installation Guide](#installation-guide)
 4. [Complete Functionality Guide](#complete-functionality-guide)
-    - [Home Screen](#home-screen)
-    - [Creating a New Topic](#creating-a-new-topic)
-    - [Adding Entries to a Topic](#adding-entries-to-a-topic)
-    - [Profile and Settings](#profile-and-settings)
-    - [Searching for Users](#searching-for-users)
-    - [Permissions and Accessibility](#permissions-and-accessibility)
+   - [Home Screen](#home-screen)
+   - [Creating a New Topic](#creating-a-new-topic)
+   - [Adding Entries to a Topic](#adding-entries-to-a-topic)
+   - [Profile and Settings](#profile-and-settings)
+   - [Searching for Users](#searching-for-users)
+   - [Permissions and Accessibility](#permissions-and-accessibility)
 5. [How to Create a New Topic](#how-to-create-a-new-topic)
 6. [Data Collection and Account Management](#data-collection-and-account-management)
 7. [Copyright](#copyright)
@@ -45,7 +34,7 @@ MemoInk supports various content formats to enhance your documentation:
 - **Operating System:** Android 7.0 (Nougat)
 - **Processor:** Quad-core 1.4 GHz
 - **RAM:** 2 GB
-- **Storage:** 200 MB free space
+- **Storage:** 50 MB free space
 - **Network:** Active internet connection
 - **Screen:** 720x1280 resolution
 
@@ -53,7 +42,7 @@ MemoInk supports various content formats to enhance your documentation:
 - **Operating System:** Android 10.0 or higher
 - **Processor:** Octa-core 2.0 GHz
 - **RAM:** 4 GB
-- **Storage:** 500 MB free space
+- **Storage:** 100 MB free space
 - **Network:** High-speed internet connection
 - **Screen:** 1080x1920 resolution or higher
 
@@ -87,30 +76,33 @@ Getting started with MemoInk is straightforward. Here's how to get it running on
 
 > **Note:** If the installation failed, check that you have enough free space on your device and the right permissions
 
-## **Functionality Overview**
-
-Let us walk you through the main features we've implemented:
+## **Complete Functionality Guide**
 
 ### Home Screen
+Browse all available Topics chronologically, with newest first. Access is permission-based - you'll be notified if you don't have the required permissions.
 
-- **Global Topics**  
-  The home screen displays all available topics sorted chronologically, with the newest appearing first. Access to topics is permission-based - if you lack the necessary permissions, you'll receive a notification indicating that access is restricted.
+### Creating a New Topic
+Add new Topics easily and control who can view and contribute to them. Each Topic automatically captures creation date and time.
 
-### Adding Entries to a Topic
-
-- To contribute to a topic, tap **Add Entry**. You can write content and upload images. Each entry automatically captures the current date and time.
-- Users can appreciate entries by tapping on them, which turns the text green and increments the like counter.
+### Adding Entries
+- Tap **Add Entry** to contribute
+- Write content and add images
+- Each entry includes timestamp
+- Like entries to show appreciation
 
 ### Profile and Settings
+- View and edit your profile information
+- Manage account settings and preferences
+- Control notification settings
+- **Note:** Account deletion removes all your content permanently
 
-- **Profile Screen**  
-  View your personal information, including your username, country, and contact details such as email and website. You can also visit other users' profiles to learn more about them and their published topics.
+### Searching for Users
+Find other users easily and explore their public Topics. Follow users to stay updated with their content.
 
-- **Settings Screen**  
-  Access and modify your account details and contact preferences. 
-  **Important:** Deleting your account will permanently remove all topics you've created, including all entries within those topics - even entries made by other users.
+### Permissions and Access
+Fine-tune who can view and contribute to your Topics. Get notified when someone interacts with your content.
 
-### Topic Management
+### Adding Entries to a Topic
 
 - **Creating Topics:** New topics automatically capture the current date and time of creation
 - **Editing Topics:** Users with appropriate permissions can modify topic names and user permissions at any time
@@ -130,7 +122,7 @@ Let us walk you through the main features we've implemented:
 
 Familiarize yourself with the app's functionalities to enhance your experience. For further assistance or questions, refer to this guide or contact support.
 
-## **Create a Topic**
+## **How to Create a New Topic**
 
 Creating a new topic is intuitive and flexible. Here's the process we've designed:
 
