@@ -2,30 +2,20 @@
 
 **MemoInk** is a digital companion for both personal journaling and team documentation, developed using Xamarin Forms and C# in Visual Studio 2022. Whether you want to keep a private diary or work together with others, MemoInk makes it simple and enjoyable. The app lets you organize your thoughts into Topics, which you can fill with all kinds of content - text, images and more. Everything syncs automatically across your devices, so your memories and notes are always at your fingertips. What makes MemoInk special is its flexibility. Keep your personal entries private or share selected content with others. Originally, MemoInk was a university project and we've fine-tuned the app based on user feedback to make it more reliable and feature-rich.
 
-### **Key Features**
-
-- **Topic Management:** Create and organize personal or collaborative documentation spaces
-- **Rich Media Support:** Add text and images to document your experiences in detail
-- **Real-time Sync:** Instant synchronization across all devices without manual intervention
-- **Permission System:** Fine-grained access control for content sharing
-- **User Collaboration:** Connect with others and create shared documentation spaces
-- **Secure Storage:** All content is encrypted and stored securely in the cloud
-
 ## **Table of Contents**
 
-1. [Key Features](#key-features)
-2. [System Requirements](#system-requirements)
-3. [Installation Guide](#installation-guide)
-4. [Complete Functionality Guide](#complete-functionality-guide)
+1. [System Requirements](#system-requirements)
+2. [Installation Guide](#installation-guide)
+3. [Complete Functionality Guide](#complete-functionality-guide)
    - [Home Screen](#home-screen)
    - [Creating a New Topic](#creating-a-new-topic)
    - [Adding Entries](#adding-entries)
    - [Profile and Settings](#profile-and-settings)
    - [Searching for Users](#searching-for-users)
    - [Permissions and Access](#permissions-and-access)
-5. [Data Collection and Account Management](#data-collection-and-account-management)
-6. [Usage Terms & License Agreement](#usage-terms--license-agreement)
-7. [Screenshots](#screenshots)
+4. [Data Collection and Account Management](#data-collection-and-account-management)
+5. [Usage Terms & License Agreement](#usage-terms--license-agreement)
+6. [Screenshots](#screenshots)
 
 ## **System Requirements**
 
