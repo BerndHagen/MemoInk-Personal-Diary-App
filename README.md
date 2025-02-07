@@ -76,31 +76,49 @@ Getting started with MemoInk is straightforward. Here's how to get it running on
 
 > **Note:** If the installation failed, check that you have enough free space on your device and the right permissions
 
-## **Complete Functionality Guide**
+## Complete Functionality Guide
 
 ### Home Screen
-Browse all available Topics chronologically, with newest first. Access is permission-based - you'll be notified if you don't have the required permissions.
+- Browse all available topics chronologically (newest first)
+- Access is permission-based; notifications inform you if access is restricted
+- All topics **created by you** display a **red cross** in the top-right corner
+  - Clicking it deletes the entire topic and its entries  
+  - If you grant someone else permission and remove yourself, you **lose the ability to delete the topic**
 
 ### Creating a New Topic
-Add new Topics easily and control who can view and contribute to them. Each Topic automatically captures creation date and time.
+- Enter a **title** for the topic you want to create
+  - If the title is already taken, the topic **won’t be created**
+  - Choose a unique title instead
+- Manage user permissions:  
+  - Select users who should have access while restricting others
+  - Permissions can be edited later inside the topic
 
 ### Adding Entries
 - Tap **Add Entry** to contribute
-- Write content and add images
-- Each entry includes timestamp
-- Like entries to show appreciation
+- Provide a **title** and a **description** for the entry
+- Select an image that will be displayed which others can expand by clicking on it
+- Each entry includes a timestamp
+- Like entries to show appreciation while each user can like an entry only once
 
 ### Profile and Settings
 - View and edit your profile information
 - Manage account settings and preferences
-- Control notification settings
-- **Note:** Account deletion removes all your content permanently
+- Changes in fields under **Settings** update instantly in the database (real-time updates)
+- **Note:** Deleting your account removes all topics you created, including all their entries
+  This also deletes **entries made by other users** within those topics!
 
 ### Searching for Users
-Find other users easily and explore their public Topics. Follow users to stay updated with their content.
+- A random selection of users is displayed by default
+- Use the search field to find specific users
+  Each change in the search field updates the list instantly
 
 ### Permissions and Access
-Fine-tune who can view and contribute to your Topics. Get notified when someone interacts with your content.
+- When creating a topic, specific users can be granted permissions
+- If **no users** are selected, the topic is accessible to everyone
+- Permissions can be modified later:  
+  - Open the topic and scroll down
+  - Click **Edit Topic Settings** to reveal additional options 
+  - Check or uncheck users to adjust permissions
 
 ### Adding Entries to a Topic
 
@@ -108,43 +126,7 @@ Fine-tune who can view and contribute to your Topics. Get notified when someone 
 - **Editing Topics:** Users with appropriate permissions can modify topic names and user permissions at any time
 - **Access Control:** Fine-grained permission system determines who can view and contribute to topics
 
-### Searching for Users
-
-- Utilize the search feature to find and view profiles of other users. This allows you to explore their published topics and potentially engage with their content, depending on the permissions granted.
-
-### Permissions and Accessibility
-
-- Permissions are essential in determining what content you can view and interact with. If you attempt to access a topic without the required permissions, the app will notify you that access is not permitted.
-
-### Additional Notes
-
-- The app is designed to facilitate user collaboration and maintain privacy. It provides a space for documenting and discussing personal and shared experiences within a community or private setting.
-
-Familiarize yourself with the app's functionalities to enhance your experience. For further assistance or questions, refer to this guide or contact support.
-
-## **How to Create a New Topic**
-
-Creating a new topic is intuitive and flexible. Here's the process we've designed:
-
-1. **Initiate Topic Creation**  
-   Tap the plus symbol (+) in the bottom navigation bar to start the process.
-
-2. **Enter Topic Details**  
-   On the `New Topic` page, locate the `Topic Details` section at the top. Enter the title for your new topic in the provided text field. The current date and time will be automatically captured when the topic is created.
-
-3. **Configure User Permissions**  
-   - Scroll to the `User Permissions` section.
-   - **Individual User Access:** Check the boxes next to the names of users you wish to grant access.
-   - **All Users Access:** To allow all users to view or participate in the topic, tap the `Select All Users` button.
-
-4. **Review Information**  
-   Review the topic title and permissions to ensure everything is set correctly.
-
-5. **Save or Cancel**  
-   - **To Save:** Tap the `Save` button located at the bottom of the screen.
-   - **To Discard:** Tap `Cancel` if you decide not to proceed.
-
-> **Note:** You can edit the topic title and permissions at any time if changes are needed.
+> **Note:** In the settings, you can choose to set your profile to Public or Private.  If your profile is Private, your created topics won’t be displayed when others search for you.
 
 ## Technical Stack & Libraries
 MemoInk is built using several key technologies and libraries to provide a reliable and efficient journaling experience. The core technologies are **Xamarin Forms** and **Firebase**.
@@ -166,7 +148,7 @@ These Firebase services ensure reliable data synchronization and secure storage 
 - **NetStandard.Library:** Provides .NET Standard compatibility for core functionality
 
 ### Additional Information
-For technical questions or issues related to MemoInk's implementation, please [open an issue](https://github.com/YourUsername/MemoInk-Personal-Diary-App/issues) on GitHub.
+For technical questions or issues related to MemoInk's implementation, please [open an issue](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/issues) on GitHub.
 
 ## **Data Collection and Account Management**
 
