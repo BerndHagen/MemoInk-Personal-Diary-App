@@ -27,31 +27,31 @@ translating, or creating derivative works of the Mobile App without
 prior written consent from the Authors. Prohibited modifications 
 include, but are not limited to:
 - Decompiling, reverse-engineering, disassembling, or attempting 
-  to discover the source code of the Mobile App.
+  to discover the source code of the Mobile App
 - Altering app functionality to bypass security, authentication, or 
-  other restrictions.
+  other restrictions
 - Modifying stored data in ways that could compromise the integrity 
-  of MemoInk’s cloud synchronization features.
+  of MemoInk’s cloud synchronization features
 
 >> Distribution
 ------------------------------
 Redistribution of the Mobile App, in whole or in part, 
 without explicit written permission from the Authors is strictly 
 forbidden. This includes, but is not limited to:
-- Sharing the Mobile App over the Internet or third-party app stores.
-- Distributing the Mobile App via physical media or within other software.
+- Sharing the Mobile App over the Internet or third-party app stores
+- Distributing the Mobile App via physical media or within other software
 - Making MemoInk available through unauthorized platforms or APK-sharing 
-services.
+services
 
 >> Commercial Use
 ------------------------------
 Any use of the Mobile App in a commercial context is 
 strictly prohibited under this License, unless a separate agreement 
 is made with the Authors. Prohibited commercial activities include:
-- Reselling or sublicensing the Mobile App.
-- Monetizing access to MemoInk, its services, or its content.
+- Reselling or sublicensing the Mobile App
+- Monetizing access to MemoInk, its services, or its content
 - Using MemoInk as part of a paid service or platform without 
-authorization.
+authorization
 
 >> DISCLAIMER OF WARRANTIES
 ------------------------------
@@ -78,9 +78,9 @@ advised of the possibility of such damages.
 MemoInk integrates Firebase Realtime Database and Firebase Storage
 for real-time data synchronization and media handling. The Mobile App 
 collects and processes user data, including but not limited to:
-- User-generated content (text, images, and shared topics).
-- User profile information (username, email, and avatar if applicable).
-- Authentication and access permissions.
+- User-generated content (text, images, and shared topics)
+- User profile information (username, email, and avatar if applicable)
+- Authentication and access permissions
 
 The Authors do **not** sell or share user data with third parties 
 for advertising or commercial gain. Data is stored securely in Firebase 
