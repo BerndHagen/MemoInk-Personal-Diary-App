@@ -1,6 +1,6 @@
 # **MemoInk - Personal Diary App**
 
-**MemoInk** is a digital companion for both personal journaling and team documentation, developed using Xamarin Forms and C# in Visual Studio 2022. Whether you want to keep a private diary or work together with others, MemoInk makes it simple and enjoyable. The app lets you organize your thoughts into Topics, which you can fill with all kinds of content - text, images and more. Everything syncs automatically across your devices, so your memories and notes are always at your fingertips. What makes MemoInk special is its flexibility. Keep your personal entries private or share selected content with others. Originally, MemoInk was a university project and we've fine-tuned the app based on user feedback to make it more reliable and feature-rich.
+**MemoInk** is a digital companion for both personal journaling and team documentation, developed using Xamarin Forms and C# in Visual Studio 2022. Whether you want to keep a private diary or work together with others, MemoInk makes it simple and enjoyable. The app lets you organize your thoughts into Topics, which you can fill with all kinds of content - text, images and more. Everything syncs automatically across your devices, so your memories and notes are always at your fingertips. What makes MemoInk special is its flexibility. Keep your personal entries private or share selected content with others. Originally, MemoInk was a **university project** and we've fine-tuned the app based on user feedback to make it more reliable and feature-rich.
 
 ## **Table of Contents**
 
