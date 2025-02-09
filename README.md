@@ -72,7 +72,7 @@ Getting started with MemoInk is straightforward. Here's how to get it running on
 - Access is permission-based; notifications inform you if access is restricted
 - All topics **created by you** display a **red cross** in the top-right corner
   - Clicking it deletes the entire topic and its entries  
-  - If you grant someone else permission and remove yourself, you **lose the ability to delete the topic**
+  - - The topic creator **cannot remove themselves** and always has permission!
 
 ### Creating a New Topic
 - Enter a **title** for the topic you want to create
