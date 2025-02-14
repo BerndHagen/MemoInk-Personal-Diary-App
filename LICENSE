@@ -1,8 +1,3 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-|                      MEMOINK ANDROID APP                        |
-|                       COPYRIGHT NOTICE                          |
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 This document constitutes the full and exclusive copyright notice for 
 MemoInk, an Android app developed and authored by Bernd Hagen 
 and Belinda Hagen ("Authors"). MemoInk, including its source code,
@@ -85,6 +80,23 @@ collects and processes user data, including but not limited to:
 The Authors do **not** sell or share user data with third parties 
 for advertising or commercial gain. Data is stored securely in Firebase 
 and adheres to applicable privacy regulations.
+
+>> CONTENT GUIDELINES
+------------------------------
+Users must ensure that all content uploaded, shared, or stored within 
+the Mobile App adheres to appropriate standards and does not violate 
+any laws or regulations. Prohibited content includes, but is not limited 
+to:
+- Content that infringes on intellectual property rights
+- Offensive, discriminatory, or hate speech
+- Sexually explicit or pornographic material
+- Content promoting violence or illegal activities
+- Malicious software or harmful code
+- Spam or unsolicited promotional content
+
+The Authors reserve the right to remove any content that violates these 
+guidelines and may terminate access for users who repeatedly post 
+inappropriate content.
 
 >> GENERAL TERMS
 ------------------------------
