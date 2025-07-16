@@ -1,25 +1,40 @@
-# **MemoInk - Personal Diary App**
+<p align="center">
+  <img src="https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/img/v1.0.2-memoink_logo.png" alt="MemoInk Logo" width="128" />
+</p>
+<h1 align="center">MemoInk - Personal Diary App</h1>
+<p align="center">
+  <b>A digital companion for both personal journaling and team documentation.</b><br>
+  <b>Organize your thoughts into Topics, sync across devices, and collaborate with others seamlessly.</b>
+</p>
+<p align="center">
+  <a href="https://github.com/BerndHagen/MemoInk-Personal-Diary-App/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/MemoInk-Personal-Diary-App?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Others-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet-framework"><img src="https://img.shields.io/badge/Xamarin.Forms-5.0-512BD4?style=flat-square" alt="Xamarin Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Android-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Min_Android-7.0-lightgrey?style=flat-square" alt="Min Android Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/MemoInk-Personal-Diary-App/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
+</p>
 
-**MemoInk** is a digital companion for both personal journaling and team documentation, developed using Xamarin Forms and C# in Visual Studio 2022. Whether you want to keep a private diary or work together with others, MemoInk makes it simple and enjoyable. The app lets you organize your thoughts into Topics, which you can fill with all kinds of content - text, images and more. Everything syncs automatically across your devices, so your memories and notes are always at your fingertips. What makes MemoInk special is its flexibility. Keep your personal entries private or share selected content with others. Originally, MemoInk was a **university project** and we've fine-tuned the app based on user feedback to make it more reliable and feature-rich.
+**MemoInk** is a straightforward journaling app created as a university project using Xamarin Forms and C#. The app helps users organize their thoughts into Topics, which can be kept private or shared with specific people.
 
-## **Table of Contents**
+The app allows users to write entries with text and images, with everything syncing through Firebase for access across different devices. Users can create Topics (digital notebooks), invite specific users to collaborate, or keep everything private.
+
+Originally developed as a university project, the app has been improved based on user feedback to enhance stability and usability. It's not a commercial application—just a simple tool for personal journaling and light collaboration.
+
+## Table of Contents
 
 1. [System Requirements](#system-requirements)
 2. [Installation Guide](#installation-guide)
-3. [Complete Functionality Guide](#complete-functionality-guide)
-   - [Home Screen](#home-screen)
-   - [Creating a New Topic](#creating-a-new-topic)
+3. [How to Use MemoInk](#how-to-use-memoink)
+   - [Getting Started on the Home Screen](#getting-started-on-the-home-screen)
+   - [Creating Your First Topic](#creating-your-first-topic)
    - [Adding Entries](#adding-entries)
-   - [Profile and Settings](#profile-and-settings)
-   - [Searching for Users](#searching-for-users)
-   - [Permissions and Access](#permissions-and-access)
-4. [Data Collection and Account Management](#data-collection-and-account-management)
-5. [Usage Terms & License Agreement](#usage-terms--license-agreement)
-6. [Screenshots](#screenshots)
+   - [Managing Your Profile](#managing-your-profile)
+   - [Finding Other Users](#finding-other-users)
+   - [Understanding Permissions](#understanding-permissions)
+4. [Technical Details](#technical-details)
+5. [Privacy and Data Management](#privacy-and-data-management)
+6. [License Agreement](#license-agreement)
+7. [Screenshots](#screenshots)
 
-## **System Requirements**
+## System Requirements
 
-### **Minimum Requirements**
+### Minimum Requirements
 - **Operating System:** Android 7.0 (Nougat)
 - **Processor:** Quad-core 1.4 GHz
 - **RAM:** 2 GB
@@ -27,7 +42,7 @@
 - **Network:** Active internet connection
 - **Screen:** 720x1280 resolution
 
-### **Recommended Requirements**
+### Recommended Requirements
 - **Operating System:** Android 10.0 or higher
 - **Processor:** Octa-core 2.0 GHz
 - **RAM:** 4 GB
@@ -35,132 +50,140 @@
 - **Network:** High-speed internet connection
 - **Screen:** 1080x1920 resolution or higher
 
-## **Installation Guide**
+## Installation Guide
 
-Getting started with MemoInk is straightforward. Here's how to get it running on your device:
+Getting MemoInk up and running is straightforward. Since it's not available on the Play Store, the app needs to be installed manually.
 
-1. **Download the APK**
-   - Open your web browser on your Android device.
-   - Navigate to the [Releases](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/releases) page of this repository.
-   - Scroll down to the **Assets** section under the latest release.
-   - Tap on the `.apk` file to start the download. You may be prompted to confirm the download, depending on your browser settings.
+### Download and Install
 
-2. **Allow Installation from Unknown Sources**
-   - Go to your device’s **Settings** by tapping the gear icon on your home screen or app drawer.
-   - Scroll down and select **Security** or, on certain devices, **Biometrics and Security**.
-   - Look for the option **Install unknown apps** or **Unknown sources**.
-   - Tap on it, then select the browser or file manager you used to download the APK.
-   - Toggle the switch to **Allow from this source**. This step may vary slightly depending on your Android version.
+1. **Get the APK File**
+   - Visit the [Releases page](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/releases) using an Android device's browser
+   - Find the latest release and tap on the `.apk` file in the Assets section
+   - The browser will download the file to the device
 
-3. **Install the APK**
-   - Open your file manager app and navigate to the **Downloads** folder where the APK was saved.
-   - Tap on the downloaded `.apk` file.
-   - A prompt will appear asking if you want to install the application. Review the permissions if necessary, then tap **Install**.
-   - The installation process will begin and may take a few moments to complete.
+2. **Enable Installation from Unknown Sources**
+   - Open the device's **Settings** app
+   - Navigate to **Security** (or **Biometrics and Security** on some devices)
+   - Find **Install unknown apps** or **Unknown sources**
+   - Select the browser and toggle **Allow from this source**
 
-4. **Open and Enjoy**
-   - Once the installation is complete, tap **Open** from the installation screen or find the app icon in your app drawer.
-   - Launch the app, and you’ll be prompted to either log in or create a new account.
-   - Follow the on-screen instructions to register and start using MemoInk to create new Topics.
+3. **Install MemoInk**
+   - Open your file manager and go to the **Downloads** folder
+   - Tap on the downloaded MemoInk APK file
+   - When prompted, tap **Install** and wait for the process to complete
 
-> **Note:** If the installation failed, check that you have enough free space on your device and the right permissions
+4. **Start Using MemoInk**
+   - Once installed, tap **Open** or find the MemoInk icon in your app drawer
+   - Create your account or log in if you already have one
+   - Start creating your first Topic and dive into journaling!
 
-## Complete Functionality Guide
+> **Tip:** If installation fails, make sure you have enough storage space and the correct permissions enabled.
 
-### Home Screen
-- Browse all available topics chronologically (newest first)
-- Access is permission-based; notifications inform you if access is restricted
-- All topics **created by you** display a **red cross** in the top-right corner
-  - Clicking it deletes the entire topic and its entries  
-  - - The topic creator **cannot remove themselves** and always has permission!
+## How to Use MemoInk
 
-### Creating a New Topic
-- Enter a **title** for the topic you want to create
-  - If the title is already taken, the topic **won’t be created**
-  - Choose a unique title instead
-- Manage user permissions:  
-  - Select users who should have access while restricting others
-  - Permissions can be edited later inside the topic
+### Getting Started on the Home Screen
+
+When you open MemoInk, you'll see all available Topics displayed chronologically with the newest ones at the top. Access to Topics depends on permissions set by their creators, and you'll get notifications if you try to access restricted content.
+
+Topics you've created will show a **red cross** in the top-right corner. Tapping this cross will delete the entire Topic and all its entries permanently. As the creator, you can't remove yourself from your own Topics—you'll always have access to what you've made.
+
+### Creating Your First Topic
+
+Ready to start journaling? Creating a new Topic is simple:
+
+- Tap the create button and enter a **title** for your Topic
+- Make sure your title is unique—if someone else already used it, you'll need to pick something different
+- Decide who should have access by selecting specific users, or leave it open for everyone
+- Don't worry about getting permissions perfect right away; you can always adjust them later
 
 ### Adding Entries
-- Tap **Add Entry** to contribute
-- Provide a **title** and a **description** for the entry
-- Select an image that will be displayed which others can expand by clicking on it
-- Each entry includes a timestamp
-- Like entries to show appreciation while each user can like an entry only once
 
-### Profile and Settings
-- View and edit your profile information
-- Manage account settings and preferences
-- Changes in fields under **Settings** update instantly in the database (real-time updates)
-- **Note:** Deleting your account removes all topics you created, including all their entries
-  This also deletes **entries made by other users** within those topics!
+This is where the magic happens. Each entry you create becomes part of your Topic's story:
 
-### Searching for Users
-- A random selection of users is displayed by default
-- Use the search field to find specific users
-  Each change in the search field updates the list instantly
+- Tap **Add Entry** to start writing
+- Give your entry a **title** and write your **description**
+- Add an image if you want—others can tap on it to see it full-size
+- Every entry gets timestamped automatically so you can track your thoughts over time
+- Show appreciation for others' entries by liking them (you can only like each entry once)
 
-### Permissions and Access
-- When creating a topic, specific users can be granted permissions
-- If **no users** are selected, the topic is accessible to everyone
-- Permissions can be modified later:  
-  - Open the topic and scroll down
-  - Click **Edit Topic Settings** to reveal additional options 
-  - Check or uncheck users to adjust permissions
+### Managing Your Profile
 
-> **Note:** In the settings, you can choose to set your profile to Public or Private.  If your profile is Private, your created topics won’t be displayed when others search for you.
+Your profile is your identity in MemoInk. Here you can:
 
-## Technical Stack & Libraries
-MemoInk is built using several key technologies and libraries to provide a reliable and efficient journaling experience. The core technologies are **Xamarin Forms** and **Firebase**.
+- Update your personal information and preferences
+- Adjust your settings—changes save automatically to the database
+- Control your privacy settings (Public or Private profiles)
 
-### Xamarin Forms
-**Xamarin Forms** serves as the foundation of MemoInk, enabling cross-platform development with a single codebase. This framework allows the app to maintain a consistent user experience while leveraging native performance on Android devices.
-- **Framework Version:** Xamarin.Forms 5.0
-- **Platform Support:** Android 7.0 (Nougat) and higher
-- **Additional Components:** Xamarin.Essentials for platform-specific functionality
+**Important:** If you decide to delete your account, all Topics you've created will be permanently removed, including entries that other users contributed to those Topics.
 
-### Firebase Integration
-**Firebase** powers MemoInk's real-time features through two key components:
-- **Firebase Realtime Database:** Manages synchronized data storage and real-time updates
-- **Firebase Storage:** Handles secure storage of multimedia content and attachments
-These Firebase services ensure reliable data synchronization and secure storage for all user content.
+### Finding Other Users
 
-### Core Libraries
-- **Newtonsoft.Json:** Handles JSON serialization and deserialization for data processing
-- **NetStandard.Library:** Provides .NET Standard compatibility for core functionality
+The search feature makes connecting with others easy:
 
-> **Note:** For technical questions or issues related to MemoInk's implementation, please [open an issue](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/issues) on GitHub.
+- By default, you'll see a random selection of users
+- Use the search field to find specific people—results update as you type
+- Remember that users with Private profiles won't show their created Topics when you search for them
 
-## **Data Collection and Account Management**
+### Understanding Permissions
 
-MemoInk collects and stores data to enhance user experience, ensure security and provide personalized features.  
+MemoInk gives you granular control over who can see your content:
 
-### **Stored User Data**
-- **Profile Information:** Full Name, Username, Email, Password (encrypted), Profile Picture, User Description, Birthday, Gender, Country, Website  
-- **Account Settings:** Privacy Status (Public/Private), Authorized Usernames for Shared Topics
-- **Communication Details:** Discord Handle  
-- **Activity and Content:** Created Topics (titles, descriptions, permissions), Entries (text, images, timestamps), Collaboration Settings
+- When creating a Topic, you can grant access to specific users
+- If you don't select anyone, the Topic becomes public for everyone
+- Want to change permissions later? Open the Topic, scroll down, and tap **Edit Topic Settings**
+- Simply check or uncheck users to adjust who can access your content
 
-### **Data Security and Storage**  
-All collected data is encrypted and stored securely in our cloud infrastructure.   
-Images, media files, and user-generated content are securely stored with access controls in place.  
+## Technical Details
 
-> **Note:** Deleting an account permanently removes all associated topics and their entries, including contributions from other users.  
+MemoInk is built on a solid foundation of modern technologies that ensure reliability and performance across Android devices.
 
-## **Usage Terms & License Agreement**  
+### Core Technologies
 
-We're thrilled to share **MemoInk** with you! Before using the app, please review the following terms:  
+**Xamarin Forms** serves as the backbone of MemoInk, allowing us to create a native Android experience with efficient development practices. Using Xamarin.Forms 5.0, the app delivers smooth performance while maintaining compatibility with Android 7.0 and higher.
 
-By downloading and using **MemoInk**, you agree to the **license terms**, which grant you a **limited, non-transferable** right to use the app for **personal, non-commercial purposes**. Any modification, distribution, or commercial use of the app **without prior written consent** from the Author is strictly prohibited.  
+**Firebase** powers the real-time features that make MemoInk special. The Firebase Realtime Database ensures your entries sync instantly across devices, while Firebase Storage securely handles your images and multimedia content.
 
-The Author reserves the right to **terminate your license** if these terms are violated. The app is provided **"as is"**, without warranties of any kind. The Author assumes **no liability** for any damages resulting from its use. You are solely responsible for ensuring that your usage complies with all **applicable laws**.  
+### Key Libraries
 
-For complete details, please refer to the **[LICENSE](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/LICENSE)** file.  
+The app leverages several essential libraries to deliver its functionality:
+- **Newtonsoft.Json** for efficient data processing
+- **NetStandard.Library** for cross-platform compatibility
+- **Xamarin.Essentials** for platform-specific features
 
-## **Screenshots**
+> If you encounter technical issues or have questions about MemoInk's implementation, feel free to [open an issue](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/issues) on our GitHub repository.
 
-To give you a better understanding of **MemoInk**'s interface and functionality, we've included some screenshots below. These images highlight the key features of the app. Feel free to explore the screenshots to get a preview of the app's design and functions before downloading the APK. Please note that future updates may introduce additional features to further enhance the user experience.  
+## Privacy and Data Management
+
+We take your privacy seriously. Here's exactly what MemoInk collects and how we handle your data.
+
+### What We Store
+
+MemoInk collects the following information to provide you with the best possible experience:
+
+**Profile Information:** Your full name, username, email, encrypted password, profile picture, description, birthday, gender, country, and website
+**Account Settings:** Privacy status, authorized users for shared Topics
+**Communication Details:** Discord handle if you choose to provide it
+**Content and Activity:** Topics you create, entries you write, collaboration settings, and timestamps
+
+### How We Protect Your Data
+
+All your data is encrypted and stored securely in our cloud infrastructure. Images and other media files are protected with access controls, ensuring only authorized users can view your content.
+
+**Important:** When you delete your account, everything goes with it—including Topics you created and all entries within them, even those written by other users.
+
+## License Agreement
+
+We're excited to share MemoInk with you! Before you start using the app, please note these important terms:
+
+By downloading and using MemoInk, you're agreeing to use it for **personal, non-commercial purposes** only. You cannot modify, distribute, or use the app commercially without our written permission.
+
+We reserve the right to terminate your license if these terms are violated. MemoInk is provided "as is" without any warranties, and we're not liable for any damages that might result from using the app. You're responsible for ensuring your usage complies with all applicable laws.
+
+For complete details, check out our [LICENSE](https://github.com/BerndHagen/MemoInk-Personal-Diary-App/blob/main/LICENSE) file.
+
+## Screenshots
+
+Want to see what MemoInk looks like in action? These screenshots showcase the app's key features and interface design. Take a look to get a feel for the app before downloading it. Keep in mind that future updates might introduce new features an
 
 | MemoInk - Home              | MemoInk - Search               | MemoInk - Topics             |
 |------------------------------|------------------------------|------------------------------|
